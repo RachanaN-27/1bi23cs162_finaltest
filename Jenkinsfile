@@ -22,7 +22,7 @@ sh 'mvn test'
     }
     stage('Run Application') {
 steps {
-sh 'java -jar target/1bi23cs162-finaltest.jar'
+sh 'java -jar target/1bi23cs162-finaltest-1.0-SNAPSHOT.jar'
 }
     }
   }
